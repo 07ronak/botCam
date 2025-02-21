@@ -1,0 +1,8 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore certificate and key files
+rootCA.crt
+rootCA.key
+server.crt
+server.key

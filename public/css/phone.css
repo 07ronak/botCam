@@ -1,0 +1,18 @@
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background: #000;
+}
+#status,
+#debug {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+#debug {
+  font-family: monospace;
+  white-space: pre-wrap;
+  background: #f5f5f5;
+  padding: 10px;
+  font-size: 12px;
+}

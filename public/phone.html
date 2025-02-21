@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iPhone Camera Stream</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/phone.css" />
+  </head>
+  <body>
+    <video id="localVideo" autoplay playsinline></video>
+    <div class="controls">
+      <button onclick="switchCamera()">Switch Camera</button>
+      <button onclick="reloadStream()">Reload Stream</button>
+    </div>
+    <div id="status"></div>
+    <div id="debug"></div>
+
+    <script src="phone.js"></script>
+  </body>
+</html>

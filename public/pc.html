@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PC Receiver</title>
+    <link rel="stylesheet" href="css/pc.css" />
+  </head>
+  <body>
+    <div id="controls">
+      <button onclick="checkVideoState()">Check Video State</button>
+      <button onclick="reloadVideo()">Reload Video</button>
+    </div>
+    <div id="videoContainer">
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <button onclick="rotateVideo()">Rotate View</button>
+    <div id="videoStats"></div>
+    <div id="status"></div>
+    <div id="debug"></div>
+
+    <script src="pc.js"></script>
+  </body>
+</html>
